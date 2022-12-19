@@ -15,6 +15,7 @@ body {
   font-family: "Readex Pro", sans-serif;
   font-size: 24px;
   line-height: 1.25rem;
+  text-size-adjust: none;
 }
 
 .img-left-float {
@@ -31,7 +32,7 @@ body {
 
 @media (max-width: 576px) {
   .sololinks-container {
-    height: 100vh;
+    height: 99vh;
     margin: 0 auto;
     border: none;
     box-shadow: none;
@@ -60,6 +61,7 @@ body {
   width: 330px;
   height: 128px;
   line-height: 128px;
+  text-size-adjust: none;
 }
 
 .sololinks-header > h1 {
