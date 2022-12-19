@@ -16,6 +16,8 @@ body {
   font-size: 24px;
   line-height: 1.25rem;
   text-size-adjust: none;
+  display: flex;
+  justify-content: center;
 }
 
 .img-left-float {
@@ -33,7 +35,8 @@ body {
 @media (max-width: 576px) {
   .sololinks-container {
     height: 99vh;
-    margin: 0 auto;
+    width: 506px; 
+    margin: 0;
     border: none;
     box-shadow: none;
   }
@@ -42,7 +45,8 @@ body {
 @media (min-width: 577px) {
   .sololinks-container {
     height: 520px;
-    margin: calc((90vh - 520px) / 2) auto;
+    width: 600px;
+    margin-top: calc((90vh - 520px) / 2);
     border-radius: 10px;
     box-shadow: -20px 20px #222;
   }
@@ -80,7 +84,6 @@ body {
 .sololinks-list {
   padding: 0;
   text-align: center;
-  display: flex;
   flex-direction: column;
 }
 
