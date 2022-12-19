@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap");
+
+:root {
+  --pallete-bg: #2e2e3a;
+  --pallete-fg: #ececec;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+body {
+  background: var(--pallete-bg);
+  font-family: "Readex Pro", sans-serif;
+  font-size: 24px;
+  line-height: 1.25rem;
+}
+
+.img-left-float {
+  border-radius: 10px;
+  margin-right: 10px;
+  float: left;
+  width: auto;
+  height: 100%;
+}
+
+.small {
+  font-size: 0.75rem;
+}
+
+@media (max-width: 576px) {
+  .sololinks-container {
+    height: 100vh;
+    margin: 0 auto;
+    border: none;
+    box-shadow: none;
+  }
+}
+
+@media (min-width: 577px) {
+  .sololinks-container {
+    height: 520px;
+    margin: calc((90vh - 520px) / 2) auto;
+    border-radius: 10px;
+    box-shadow: -20px 20px #222;
+  }
+}
+
+.sololinks-container {
+  background: var(--pallete-fg);
+  min-width: 330px;
+  max-width: 600px;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+.sololinks-header {
+  margin: 24px auto;
+  width: 330px;
+  height: 128px;
+  line-height: 128px;
+}
+
+.sololinks-header > h1 {
+  font-size: 64px;
+  margin: 0;
+}
+
+.sololinks-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.sololinks-list > li {
+  margin: 0 auto;
+  width: 330px;
+  background: var(--pallete-bg);
+  margin-bottom: 12px;
+  border-radius: 10px;
+}
+
+.sololinks-list a {
+  padding: 12px 0;
+  display: block;
+  text-decoration: none;
+  transition: ease 0.25s;
+  color: #ffffff;
+}
+
+.sololinks-list a:hover {
+  color: #6e95ff;
+  transition: ease 0.25s;
+}
+
+.rainbow-band {
+  position: relative;
+  top: 0;
+  height: 10px;
+  width: 100%;
+  margin: 0 0;
+  background: linear-gradient(
+    90deg,
+    red 16%,
+    orange 0 33%,
+    yellow 0 50%,
+    green 0 66%,
+    blue 0 83%,
+    indigo 0
+  );
+}
