@@ -60,12 +60,12 @@ body {
   margin: 24px auto;
   width: 330px;
   height: 128px;
-  line-height: 128px;
   text-size-adjust: none;
 }
 
 .sololinks-header > h1 {
   font-size: 64px;
+  line-height: 128px;
   margin: 0;
 }
 
